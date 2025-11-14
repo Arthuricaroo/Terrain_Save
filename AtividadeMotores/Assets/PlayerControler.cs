@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
         transform.Translate(new Vector3(h, 0, v) * speed * Time.deltaTime);
 
         // Salvar com tecla S
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.K))
             GameManager.instance.SalvarJogo(transform.position);
 
         // Carregar com tecla L
